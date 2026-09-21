@@ -303,10 +303,21 @@ h2 em {
   font-family: Arial, sans-serif;
   font-size: 12px;
   font-weight: 800;
-  gap: 42px;
-  justify-content: center;
   letter-spacing: 0.1em;
+  width: max-content;
+  animation: ticker-scroll 24s linear infinite;
+}
+.ticker-set {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 42px;
+  padding-right: 42px;
   white-space: nowrap;
+}
+@keyframes ticker-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
 }
 .ticker i {
   color: var(--yellow);
