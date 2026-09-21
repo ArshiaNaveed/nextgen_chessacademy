@@ -12,6 +12,7 @@
   box-sizing: border-box;
 }
 html {
+  overflow-x: clip;
   scroll-behavior: smooth;
 }
 body {
@@ -19,6 +20,7 @@ body {
   background: var(--paper);
   color: var(--ink);
   font-family: Georgia, "Times New Roman", serif;
+  overflow-x: clip;
 }
 a {
   color: inherit;
@@ -293,7 +295,7 @@ h2 em {
   color: white;
   overflow: hidden;
   padding: 19px 0;
-  transform: rotate(-1.2deg) scale(1.02);
+  width: 100%;
 }
 .ticker-inner {
   align-items: center;
