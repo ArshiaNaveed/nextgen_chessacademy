@@ -3,11 +3,11 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "NextGen Chess Academy | Chess for curious kids",
-    template: "%s | NextGen Chess Academy",
+    default: "Alpha Chess Academy | Chess for curious kids",
+    template: "%s | Alpha Chess Academy",
   },
-  description: "NextGen Chess Academy is a female-led chess academy for kids aged 5–15, offering live online classes across Pakistan and in-person lessons in Islamabad.",
-  applicationName: "NextGen Chess Academy",
+  description: "Alpha Chess Academy is a female-led chess academy for kids aged 5–15, offering live online classes across Pakistan and in-person lessons in Islamabad.",
+  applicationName: "Alpha Chess Academy",
   keywords: ["chess academy", "kids chess classes", "chess classes Islamabad", "chess coaching Pakistan", "Coach Arshia Naveed"],
   icons: {
     icon: "/favicon.png",
